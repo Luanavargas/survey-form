@@ -1,0 +1,29 @@
+
+#background {
+    background-image: url('/background-image.jpg');
+    background-position: center;
+    background-size: cover;
+}
+body {
+    font-family: 'Fredoka', sans-serif; 
+}
+.bg-white {
+    background-color: #eee;
+}
+.m-auto {
+    margin: 0 auto;
+}
+.m-t-10 {
+    margin-top: 100px;
+}
+.w-50 {
+    width: 50%;
+    height: 300px;
+}
+.rounded {
+    border-radius: 20px;
+}
+.shadow-orange {
+    box-shadow: 0 0 20px rgb(233, 99, 10);
+}
+
