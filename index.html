@@ -9,8 +9,90 @@
     </head>
 
     <body id="background">
-        <div class="bg-white m-auto w-50 m-t-100 rounded shadow-orange ">
-            
+        <div class="bg-white m-auto w-50 m-t-100 rounded shadow-orange p-20 ">
+            <div>
+                <h1 id="title" class="align-center">Sign Up</h1>
+            </div>
+            <form id="survey-form" action="/" method="get">
+                <p class="fs-20" id="description">Basic Details</p>
+                <div class="flex flex-row">
+                    <div class="flex flex-column p-20 w-50">
+                        <label id="name-label" class="p-10" for="full-name">Full Name</label>
+                        <input id="name" required class="form-input rounded p-10" placeholder="Enter Full Name" type="text">
+                    </div>
+                    <div class="flex flex-column p-20 w-50">
+                        <label id="email-label" class="p-10" for="Email">Email</label>
+                        <input id="email" required class="form-input rounded p-10" placeholder="Enter email" type="email">
+                    </div>
+                </div>
+                <div class="flex flex-row">
+                        <div class="flex flex-column p-20 w-50">
+                            <label id="number-label" class="p-10" for="Number">Number</label>
+                            <input min="10" max="11" id="number" class="form-input rounded p-10" placeholder="Enter number fone" type="number">
+                        </div>
+                        <div class="flex flex-column p-20 w-50">
+                            <label class="p-10" for="Date Of Birth">Date Of Birth</label>
+                            <div><input id="date" class="form-input rounded p-10" type="date"></div>
+                        </div>
+                </div>
+                <div class="flex flex-row">
+                    <div class="flex flex-column p-20 w-50">
+                        <label class="p-10" for="Gender"> Gender</label>
+                        <div class="p-10">
+                            <label  for="Male"><input name="gender" value="male" type="radio">Male</label>
+                            <label  for="Female"><input name="gender" value="Female" type="radio">Female</label>
+                            <label  for="Non-binary"><input name="gender" value="non-binary" type="radio">Non Binary</label>
+                        </div>
+                    </div>
+                    <div class="flex flex-column p-20 w-50 itens-center">
+                        <label class="p-10" for="State">State</label>
+                        <select class="form-input rounded p-10" name="State" id="dropdown">
+                            <option value="Acre"> Acre</option>
+                            <option value="Alagoas">Alagoas</option>
+                            <option value="Amapa">Amapá</option>
+                            <option value="Amazonas">Amazonas</option>
+                            <option value="Bahia">Bahia</option>
+                            <option value="Ceara">Ceará</option>
+                            <option value="Distrito-Federal">Distrito Federal</option>
+                            <option value="Espirito-Santo">Espirito Santo</option>
+                            <option value="Goias">Goiás</option>
+                            <option value="Maranhao">Maranhão</option>
+                            <option value="Mato Grosso">Mato Grosso</option>
+                            <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                            <option value="Minas Gerais">Minas Gerais</option>
+                            <option value="Pará">Pará</option>
+                            <option value="Paraíba">Paraíba</option>
+                            <option value="Paraná">Paraná</option>
+                            <option value="Pernambuco">Pernambuco</option>
+                            <option value="Piauí">Piauí</option>
+                            <option value="Rio de Janeiro">Rio de Janeiro</option>
+                            <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                            <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                            <option value="Rondônia">Rondônia</option>
+                            <option value="Roraima">Roraima</option>
+                            <option value="Santa Catarina">Santa Catarina</option>
+                            <option value="São Paulo">São Paulo</option>
+                            <option value="Sergipe">Sergipe</option>
+                            <option value="Tocantins">Tocantins</option>
+                        </select>
+                    </div>    
+                </div>
+                <div class="flex Flex-column p-20">
+                    <label class="p-10" for="position">Position</label>
+                    <div class="p-10">
+                        <label for="Junior"><input value="junior-developer" type="Checkbox">Junior Developer</label>
+                        <label for="Developer"><input value="developer" type="Checkbox">Developer</label>
+                        <label for="Senior-Developer"><input value="denior-developer" type="Checkbox">Sênior Developer</label>
+                    </div>
+                </div>
+                <div class="flex flex-column p-20">
+                    <label class="p-10" for="Vision & Mission">Vision & Mission</label>
+                    <textarea class="form-input rounded p-10" placeholder="Type Here..." name="" id="" cols="30" rows="10"></textarea>
+                </div> 
+                <div class="align-center">
+                    <button id="submit" type="submit">Submit</button>
+                </div> 
+            </form>
         </div>
     </body>
 </html>
