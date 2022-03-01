@@ -1,6 +1,6 @@
 
 #background {
-    background-image: url('/background-image.jpg');
+    background-image: url('./background-image.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -30,8 +30,8 @@ body {
     box-shadow: 0 0 25px #ff9900;
 }
 
-.elemento {
-    cursor: pointer; // muda para a mãozinha
+.cursor-pointer {
+    cursor: pointer;
 }
 
 .flex {
