@@ -5,6 +5,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <title>Formulário-de-pesquisa</title>
     </head>
 
@@ -20,7 +21,15 @@
                         <label id="name-label" class="p-10" for="full-name">Full Name</label>
                         <input id="name" required class="form-input rounded p-10" placeholder="Enter Full Name" type="text">
                     </div>
-                    <div class="flex flex-column p-20 w-50">
+                    <div class="w-50 align-center">
+                        <a class="s-500 rounded-full orange btn" href="">
+                            <i class="fa-solid fa-camera "></i>
+                        </a>
+                        <p class="lign-center fs-14 p-10">Add Photo</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex flex-column p-20">
                         <label id="email-label" class="p-10" for="Email">Email</label>
                         <input id="email" required class="form-input rounded p-10" placeholder="Enter email" type="email">
                     </div>
@@ -90,7 +99,7 @@
                     <textarea class="form-input rounded p-10" placeholder="Type Here..." name="" id="" cols="30" rows="10"></textarea>
                 </div> 
                 <div class="align-center">
-                    <button id="submit" type="submit">Submit</button>
+                    <button class="rounded orange t-white border-0 btn p-10 elemento" id="submit" type="submit">Save</button>
                 </div> 
             </form>
         </div>

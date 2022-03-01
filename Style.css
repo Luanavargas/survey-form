@@ -13,16 +13,25 @@ body {
     text-align: center;
 }
 
-.align-start {
-    text-align: ;
-}
-
 .bg-white {
     background-color: #fefefe;
 }
 
 .bg-gray {
     background-color: #f1f1f1;
+}
+
+.border-0 {
+    border: 0
+}
+
+.btn:hover {
+    background-color: #f6890d;
+    box-shadow: 0 0 25px #ff9900;
+}
+
+.elemento {
+    cursor: pointer; // muda para a mãozinha
 }
 
 .flex {
@@ -35,6 +44,10 @@ body {
 
 .flex-row {
     flex-direction: row;
+}
+
+.fs-14 {
+    font-size: 14px;
 }
 
 .fs-20{
@@ -53,7 +66,7 @@ body {
 
 .form-input:focus {
     background-color: #fefefe;
-    box-shadow: 0 0 10px rgb(245, 189, 156);
+    box-shadow: 0 0 10px #FFA500;
     transition: all 0.5s;
 }
 
@@ -73,6 +86,10 @@ body {
     margin-top: 100px;
 }
 
+.orange{
+    background-color: #F6660D;
+    
+}
 .p-10 {
     padding: 10px;
 }
@@ -85,6 +102,10 @@ body {
     padding-top: 20px;
 }
 
+.s-500 {
+    font-size: 30px;
+    color: #f1f1f1;
+}
 .w-50 {
     width: 50%;
 }
@@ -93,7 +114,16 @@ body {
     border-radius: 20px;
 }
 
-.shadow-orange {
-    box-shadow: 0 0 20px rgb(233, 99, 10);
+.rounded-full{
+    border-radius: 50%;
+    padding: 20px;
+    
 }
 
+.shadow-orange {
+    box-shadow: 0 0 20px #FFA500;
+}
+
+.t-white {
+    color: white;
+}
